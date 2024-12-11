@@ -6,10 +6,10 @@ using UnityEngine.SceneManagement;
 
 public class DetectCollisions : MonoBehaviour
 {
-    private bool isDead = false; // Fixed declaration and initialization
-    public GameoverManager gameManager; // Ensure this is assigned in the Inspector
-    public ParticleSystem explosionParticle; // Assign the explosion prefab in the Inspector
-    public TextMeshProUGUI starText; // Assign the TextMeshPro object in the Inspector
+    private bool isDead = false; 
+    public GameoverManager gameManager; 
+    public ParticleSystem explosionParticle; 
+    public TextMeshProUGUI starText; 
 
     // Reference to the player's score
     public static int score = 0;
